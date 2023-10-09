@@ -1,0 +1,15 @@
+{
+  "name": "make-solution",
+  "description": "Make a solution for a given problem on LeetCode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.3.8"
+  }
+}
