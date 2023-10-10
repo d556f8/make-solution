@@ -1,10 +1,11 @@
 {
   "name": "make-solution",
   "description": "Make a solution for a given problem on LeetCode",
-  "version": "1.0.0",
-  "main": "dist/index.js",
+  "version": "1.1.1",
+  "main": "./dist/index.js",
   "license": "MIT",
   "type": "commonjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc"
