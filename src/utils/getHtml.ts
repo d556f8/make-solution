@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer';
 
-export default async function getHtml(url) {
+export default async function getHtml(url: string) {
   const browser = await puppeteer.launch({
     headless: 'new',
     args: ['--no-sandbox'],
