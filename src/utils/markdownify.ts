@@ -21,5 +21,5 @@ ${description}
 
   fs.mkdirSync(solutionDirectory);
 
-  fs.writeFileSync(solutionDirectory + 'solution.md', solution, { encoding: 'utf-8' });
+  fs.writeFileSync(solutionDirectory + 'readme.md', solution, { encoding: 'utf-8' });
 }
