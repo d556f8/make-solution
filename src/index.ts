@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { load } from 'cheerio';
 import getHtml from './utils/getHtml';
 import markdownify from './utils/markdownify';
